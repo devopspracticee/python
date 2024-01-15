@@ -7,4 +7,5 @@ complete_detail = response.json()
 
 for i in range(len(complete_detail)):
     print(complete_detail[i]["user"]["login"])
+
 # print(complete_detail[1]["user"]["login"])
